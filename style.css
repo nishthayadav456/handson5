@@ -1,0 +1,224 @@
+
+body{
+    background-color: yellow;
+}
+h1{
+   text-align: center;
+   font-weight: bold;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.row1{
+    width:100px;
+    height:100px;
+    background-color: rgb(87, 12, 156);
+    margin:50px;
+    animation: sample1 2s infinite alternate;
+}
+.num1{
+    padding-top: 130px;
+    font-weight: bold;
+}
+ @keyframes sample1{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+ }
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.num2{
+padding-top: 130px;
+font-weight: bold;
+}
+.row2{
+    width:100px;
+    height:100px;
+    background-color: rgb(162, 102, 219);
+    margin:50px;
+    animation: sample2 2s infinite alternate;  
+}
+@keyframes sample2{
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.num3{
+    padding-top: 130px;
+    font-weight: bold;
+}
+.row3{
+    width:100px;
+    height:100px;
+    background-color: rgba(39, 76, 198, 0.927);
+    margin:50px;
+    animation:sample3 2s infinite normal; 
+}
+@keyframes sample3{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4{
+    display: flex;
+    justify-content: center;
+
+}
+.num4{
+     padding-top:130px;
+     font-weight: bold;
+}
+.row4{
+    width:100px;
+    height:100px;
+   margin:50px;
+  
+   }
+   
+
+  .first{
+    background-color: rgb(76, 76, 183);
+    border: 5px solid rgb(25, 25, 79);
+    animation:sample4 2s infinite normal;
+  }
+  @keyframes sample4{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,.5);
+    }
+  } 
+ .second{
+    background-color: brown;
+    border: 5px solid rgb(127, 29, 29);
+    animation:sample5 2s infinite normal;
+ }
+ @keyframes sample5{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(.5,1);
+    }
+    }
+ 
+ .third{
+    background-color: green;
+    border: 5px solid darkgreen;
+    animation:sample6 2s infinite alternate;
+ }
+ @keyframes sample6{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(1800deg);
+    }
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+ }
+ p{
+    font-size: 40px;
+    text-align: center;
+ }
+ .container{
+    display:flex;
+    justify-content: center;
+ }
+ .box5{
+    height:100px;
+    width:100px;
+    background-color: rgb(33, 147, 33);
+    margin:20px;
+    
+    
+ }
+ 
+ 
+ .one{
+    transition: 3s;
+   
+ }
+ .one:hover{
+    width:300px;
+ }
+ .two{
+    transition:3s
+ }
+ .two:hover{
+    transition-timing-function: linear;
+    width:300px;
+    height:400px;
+ }
+ .three{
+    transition:3s;
+ }
+ .three:hover{
+    transition-timing-function: linear;
+    width:300px;
+ }
+ .four{
+    transition: 3s;
+ }
+ .four:hover{
+    transition-timing-function: ease;
+    width:400px;
+
+ }
+ .five{
+    transition: 3s;
+ }
+ .five:hover{
+    transition-timing-function: ease-in;
+    width:400px;
+
+ }
+ .six{
+    transition: 3s;
+ }
+ .six:hover{
+    transition-timing-function: ease-out;
+    width:400px;
+ }
+ .seven{
+    transition: 3s;
+ }
+ .seven:hover{
+    transition-timing-function: ease-in-out;
+    width:300px;
+
+ }
+ h2{
+    text-align: center;
+    font-size: 30px;
+ }
+ h3{
+    text-align: center;
+    font-size: 30px; 
+    color: blue;
+    
+ }
+ ol{
+    font-weight: bold;
+ }
